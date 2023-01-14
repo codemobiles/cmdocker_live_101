@@ -13,3 +13,4 @@
   - docker images
   - docker run -it node
   - docker run -it --name my_node node
+  - docker exec -it <container_id> sh
