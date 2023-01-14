@@ -9,3 +9,6 @@
 - docker cli
   - docker ps
   - docker ps -a
+  - docker pull node/mongo
+  - docker images
+  - docker run -it node
