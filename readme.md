@@ -19,3 +19,4 @@
 
 ## Ep2#
 - docker run -d --name cmdev-mongo -v /Users/../db:/data/db mongo
+- docker run -d --name cmdev-mongo -v /Users/../db:/data/db -p 27019:27017 mongo
