@@ -1,0 +1,14 @@
+exit
+exirt
+db.courses.find()
+use demo
+show dbs
+exit
+show dbs
+cls
+db.courses.find()
+db.courses.insert({name: "react-native", price: 5})
+db.courses.insert({name: "flutter", price: 10})
+use demo
+show dbs
+cls

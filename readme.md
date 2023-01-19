@@ -16,3 +16,6 @@
   - docker exec -it <container_id> sh
   - docker run -d --rm --name cm-mongo mongo
   - docker exec -it 1cd1d0a6bc90 sh
+
+## Ep2#
+- docker run -d --name cmdev-mongo -v /Users/../db:/data/db mongo
