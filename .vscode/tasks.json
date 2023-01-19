@@ -6,7 +6,12 @@
     {
       "label": "pushall",
       "type": "shell",
-      "command": "git add . && git commit -m '1234' && git push"
+      "command": "git add . && git commit -m '1234' && git push",
+      "presentation": {
+        "reveal": "silent",
+        "revealProblems": "onProblem",
+        "close": true
+      }
     }
   ]
 }
